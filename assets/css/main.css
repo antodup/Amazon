@@ -23,6 +23,39 @@ p {
     height:30px;
 }
 
+.navbar-brand {
+    font-size: 1.2em;
+}
+
+.fa {
+    font-size: 1.6em;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-brand {
+    padding: 10px 20px;
+    color: #131A32 !important;
+    margin-right: 0;
+}
+
+.navbar-brand:first-child {
+    margin-right: 10px;
+}
+
+.navbar-brand:hover {
+    background-color: #dadada;
+    border-radius: 4px;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px){
+    .nav-li{
+        flex-direction: column;
+    }
+}
+
 /*FOOTER*/
 .footer-page {
     background-color: #f3f3f3;
