@@ -17,6 +17,11 @@ p {
     font-size: 0.8em;
 }
 
+/*HEADER*/
+
+.logo {
+    height:30px;
+}
 
 /*FOOTER*/
 .footer-page {
