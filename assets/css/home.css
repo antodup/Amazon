@@ -1,0 +1,10 @@
+
+.vh100{
+    height: 100vh;
+}
+
+.background-img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
