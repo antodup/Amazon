@@ -23,21 +23,24 @@
 <?php
 include("views/header.php")
 ?>
-<section class="d-flex justify-content-center align-items-center vh100">
-    <div class="col-8">
-        <nav class="navbar navbar-light bg-light d-flex flex-nowrap">
-            <form class="form-inline w-100 d-flex flex-nowrap col-12">
-                <input class="form-control mr-sm-2 col-10" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0 col-2" type="submit">Search</button>
-            </form>
-        </nav>
+<section class="d-flex justify-content-center align-items-center vh100 flex-column p-3">
+    <div class="text-white text-uppercase m-2 m-lg-4" >
+        <h1>Qu'allez-vous acheter aujourd'hui ?</h1>
+    </div>
+    <div class="col-lg-6">
+        <div class="input-group shadow">
+            <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+            <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button">Go!</button>
+            </span>
+        </div>
     </div>
     <div class="background-img">
-        <img src="assets/pictures/background-santa.jpeg" alt="Santa-claus" class="w-100">
+        <img src="assets/pictures/familly.jpg" alt="familly" class="w-100">
     </div>
 </section>
-<section class="container-fluid">
-    <div class="p-sm-5">
+<section class="container-fluid bg-white">
+    <div class="p-3">
         <article>
             <div>
                 <h4>Sélection idées cadeaux</h4>
@@ -47,42 +50,42 @@ include("views/header.php")
                     <div class="carousel-item active">
                         <div class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"
                              src="..." alt="First slide">
-                            <a href="#" class="col-lg-2 col-md-4">
+                            <a href="#" class="col-lg-2 col-md-4 card">
                                 <div><img src="assets/pictures/ipad-pro.jpg" class="w-100" alt="drone"></div>
                                 <div>
                                     <h6>GoPro Drone Karma</h6>
                                     <p>1329 EUR</p>
                                 </div>
                             </a>
-                            <a href="#" class="col-lg-2 col-md-4">
+                            <a href="#" class="col-lg-2 col-md-4 card">
                                 <div><img src="assets/pictures/lego.jpg" class="w-100" alt="drone"></div>
                                 <div>
                                     <h6>GoPro Drone Karma</h6>
                                     <p>1329 EUR</p>
                                 </div>
                             </a>
-                            <a href="#" class="col-lg-2 col-md-4">
+                            <a href="#" class="col-lg-2 col-md-4 card">
                                 <div><img src="assets/pictures/montre.jpg" class="w-100" alt="drone"></div>
                                 <div>
                                     <h6>GoPro Drone Karma</h6>
                                     <p>1329 EUR</p>
                                 </div>
                             </a>
-                            <a href="#" class="col-lg-2 col-md-4">
+                            <a href="#" class="col-lg-2 col-md-4 card">
                                 <div><img src="assets/pictures/apareil-photo.jpg" class="w-100" alt="drone"></div>
                                 <div>
                                     <h6>GoPro Drone Karma</h6>
                                     <p>1329 EUR</p>
                                 </div>
                             </a>
-                            <a href="#" class="col-lg-2 col-md-4">
+                            <a href="#" class="col-lg-2 col-md-4 card">
                                 <div><img src="assets/pictures/go-pro.jpg" class="w-100" alt="drone"></div>
                                 <div>
                                     <h6>GoPro Drone Karma</h6>
                                     <p>1329 EUR</p>
                                 </div>
                             </a>
-                            <a href="#" class="col-lg-2 col-md-4">
+                            <a href="#" class="col-lg-2 col-md-4 card">
                                 <div><img src="assets/pictures/asterix.jpg" class="w-100" alt="drone"></div>
                                 <div>
                                     <h6>GoPro Drone Karma</h6>
@@ -94,43 +97,43 @@ include("views/header.php")
                     <div class="carousel-item">
                         <div class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"
                              src="..." alt="Second slide">
-                            <a href="#" class="col-lg-2 col-md-4">
-                                <div><img src="assets/pictures/ipad-pro.jpg" class="w-100" alt="drone"></div>
+                            <a href="#" class="col-lg-2 col-md-4 card">
+                                <div><img src="assets/pictures/ipad-pro.jpg" alt="drone"></div>
                                 <div>
                                     <h6>GoPro Drone Karma</h6>
                                     <p>1329 EUR</p>
                                 </div>
                             </a>
-                            <a href="#" class="col-lg-2 col-md-4">
-                                <div><img src="assets/pictures/lego.jpg" class="w-100" alt="drone"></div>
+                            <a href="#" class="col-lg-2 col-md-4 card">
+                                <div><img src="assets/pictures/lego.jpg" alt="drone"></div>
                                 <div>
                                     <h6>GoPro Drone Karma</h6>
                                     <p>1329 EUR</p>
                                 </div>
                             </a>
-                            <a href="#" class="col-lg-2 col-md-4">
-                                <div><img src="assets/pictures/montre.jpg" class="w-100" alt="drone"></div>
+                            <a href="#" class="col-lg-2 col-md-4 card">
+                                <div><img src="assets/pictures/montre.jpg" alt="drone"></div>
                                 <div>
                                     <h6>GoPro Drone Karma</h6>
                                     <p>1329 EUR</p>
                                 </div>
                             </a>
-                            <a href="#" class="col-lg-2 col-md-4">
-                                <div><img src="assets/pictures/apareil-photo.jpg" class="w-100" alt="drone"></div>
+                            <a href="#" class="col-lg-2 col-md-4 card">
+                                <div><img src="assets/pictures/apareil-photo.jpg" alt="drone"></div>
                                 <div>
                                     <h6>GoPro Drone Karma</h6>
                                     <p>1329 EUR</p>
                                 </div>
                             </a>
-                            <a href="#" class="col-lg-2 col-md-4">
-                                <div><img src="assets/pictures/go-pro.jpg" class="w-100" alt="drone"></div>
+                            <a href="#" class="col-lg-2 col-md-4 card">
+                                <div><img src="assets/pictures/go-pro.jpg" alt="drone"></div>
                                 <div>
                                     <h6>GoPro Drone Karma</h6>
                                     <p>1329 EUR</p>
                                 </div>
                             </a>
-                            <a href="#" class="col-lg-2 col-md-4">
-                                <div><img src="assets/pictures/asterix.jpg" class="w-100" alt="drone"></div>
+                            <a href="#" class="col-lg-2 col-md-4 card">
+                                <div><img src="assets/pictures/asterix.jpg" alt="drone"></div>
                                 <div>
                                     <h6>GoPro Drone Karma</h6>
                                     <p>1329 EUR</p>
