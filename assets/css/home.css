@@ -1,31 +1,31 @@
 h1{
-    font-size:4em;
+    font-size:3.5em;
 }
 .vh100{
     height: 100vh;
 }
 
-.background-img{
-    position: absolute;
-    filter: blur(3px);
-    z-index: -1;
-    width: 100%;
+.background-img-home{
+    background-image: url("../pictures/familly.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-img-add1{
+    background-image: url("../pictures/ilya-pavlov-87472.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .shadow{
     box-shadow: rgba(0,0,0,0.4) -2px 2px 15px;
 }
 
-.card {
-    height:25vh;
-}
-.card div:first-child {
-    height:75%;
-}
-
-.card div:first-child img{
-    height:auto;
-    width:auto;
+.btn-primary{
+    background-color: #131a22;
+    border:none;
 }
 
 @media screen and (min-width: 320px) and (max-width:767px){
@@ -34,6 +34,6 @@ h1{
     }
 
     h1{
-        font-size:2em;
+        font-size:1.6em;
     }
   }

@@ -22,169 +22,144 @@
 <?php
 include("views/header.php")
 ?>
-<section class="d-flex justify-content-center align-items-center vh100 flex-column p-3">
-    <div class="text-white text-uppercase m-2 m-lg-4" >
-        <h1>Qu'allez-vous acheter aujourd'hui ?</h1>
-    </div>
-    <div class="col-lg-6">
+<section class="d-flex justify-content-center align-items-center vh100 flex-column p-3 background-img-home vh100">
+    <div class="col-sm-6 col-md-8">
         <div class="input-group shadow">
             <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
             <span class="input-group-btn">
-                <button class="btn btn-secondary" type="button">Go!</button>
+                <button class="btn btn-secondary" type="button"><i class="fa fa-search"></i></button>
             </span>
         </div>
-    </div>
-    <div class="background-img">
-        <img src="assets/pictures/familly.jpg" alt="familly" class="w-100">
-    </div>
+        <div class="text-white text-uppercase mt-3 m-lg-4 text-center" >
+            <h1>Qu'allez-vous acheter aujourd'hui ?</h1>
+        </div>
 </section>
 <section class="container-fluid bg-white">
     <div class="p-3">
         <article>
             <div>
-                <h4>Sélection idées cadeaux</h4>
+                <h4>Sélection idées cadeau</h4>
             </div>
             <div id="carouselExampleControls" class="pt-3 carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"
                              src="..." alt="First slide">
-                            <a href="#" class="col-lg-2 col-md-4 card">
-                                <div><img src="assets/pictures/ipad-pro.jpg" class="w-100" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4 card">
-                                <div><img src="assets/pictures/lego.jpg" class="w-100" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4 card">
-                                <div><img src="assets/pictures/montre.jpg" class="w-100" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4 card">
-                                <div><img src="assets/pictures/apareil-photo.jpg" class="w-100" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top h-25" src="assets/pictures/montre.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4 card">
-                                <div><img src="assets/pictures/go-pro.jpg" class="w-100" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/lego.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4 card">
-                                <div><img src="assets/pictures/asterix.jpg" class="w-100" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
-                                </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"
                              src="..." alt="Second slide">
-                            <a href="#" class="col-lg-2 col-md-4 card">
-                                <div><img src="assets/pictures/ipad-pro.jpg" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4 card">
-                                <div><img src="assets/pictures/lego.jpg" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4 card">
-                                <div><img src="assets/pictures/montre.jpg" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4 card">
-                                <div><img src="assets/pictures/apareil-photo.jpg" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top h-25" src="assets/pictures/montre.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4 card">
-                                <div><img src="assets/pictures/go-pro.jpg" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/lego.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4 card">
-                                <div><img src="assets/pictures/asterix.jpg" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
-                                </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column-reverse"
                              src="..." alt="Third slide">
-                            <a href="#" class="col-lg-2 col-md-4">
-                                <div><img src="assets/pictures/ipad-pro.jpg" class="w-100" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4">
-                                <div><img src="assets/pictures/lego.jpg" class="w-100" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4">
-                                <div><img src="assets/pictures/montre.jpg" class="w-100" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4">
-                                <div><img src="assets/pictures/apareil-photo.jpg" class="w-100" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top h-25" src="assets/pictures/montre.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4">
-                                <div><img src="assets/pictures/go-pro.jpg" class="w-100" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/lego.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
                                 </div>
-                            </a>
-                            <a href="#" class="col-lg-2 col-md-4">
-                                <div><img src="assets/pictures/asterix.jpg" class="w-100" alt="drone"></div>
-                                <div>
-                                    <h6>GoPro Drone Karma</h6>
-                                    <p>1329 EUR</p>
-                                </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -199,6 +174,160 @@ include("views/header.php")
             </div>
         </article>
     </div>
+</section>
+<section class="background-img-add1 d-flex justify-content-end pb-5 pt-5">
+    <div class="col-sm-5 mt-5 mb-5 text-white">
+        <h2>Votre commande <br> en quelques clics</h2>
+    </div>
+</section>
+<section class="container-fluid bg-white">
+    <div class="p-3">
+        <article>
+            <div>
+                <h4>Sélection pour vous</h4>
+            </div>
+            <div id="carouselExampleControls" class="pt-3 carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"
+                             src="..." alt="First slide">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top h-25" src="assets/pictures/montre.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/lego.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"
+                             src="..." alt="Second slide">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top h-25" src="assets/pictures/montre.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/lego.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column-reverse"
+                             src="..." alt="Third slide">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top h-25" src="assets/pictures/montre.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/pictures/lego.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between"><h5 class="card-title">Drone kappa 1337</h5><h6>EUR 1337.99</h6></div>
+                                    <a href="#" class="btn btn-primary">j'achète</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </article>
+    </div>
+</section>
+<section class="d-flex p-3 justify-content-sm-between flex-sm-row flex-column">
+    <article class="col-sm-6 mt-2">
+        <img src="assets/pictures/add1.jpg" alt="promotions de noël" class="w-100">
+    </article>
+    <article class="col-sm-6 mt-2">
+        <img src="assets/pictures/add2.jpg" alt="Produits comme neufs" class="w-100">
+    </article>
 </section>
 <?php
 include("views/footer.php")
