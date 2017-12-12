@@ -20,7 +20,7 @@
 </head>
 <body>
 <?php
-require("views/header.php")
+require("header.php");
 ?>
 <section class="d-flex justify-content-center align-items-center flex-column p-3 background-img-home vh100">
     <div class="ctn-search">
@@ -263,7 +263,7 @@ require("views/header.php")
     </article>
 </section>
 <?php
-require("views/footer.php")
+require("footer.php");
 ?>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
