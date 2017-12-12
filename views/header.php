@@ -1,19 +1,18 @@
 <header>
     <nav class="navbar  navbar-light bg-light">
-        <button class="navbar-toggler col-3 text-left" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        <button class="navbar-toggler col-3 text-left d-flex align-items-center" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon mr-3"></span>
+            <span class="txt-menu">Voir toutes les catégories<span>
         </button>
         <img class="logo rounded mx-auto d-block col-3" src="assets/pictures/amazon-dark.svg">
-        <div class="d-flex col-3 justify-content-end">
-            <a class="navbar-brand d-flex align-items-center" href="#"><i class="mb-1 mr-2 fa fa-user"
-                                                                                      aria-hidden="true"></i>Profil</a>
-            <a class="navbar-brand d-flex align-items-center" href="#"><i class="mb-1 mr-2 fa fa-shopping-cart"
-                                                                                      aria-hidden="true"></i>Panier</a>
-        </div>
+        <section class="d-flex col-3 justify-content-end">
+            <a class="navbar-brand d-flex align-items-center" href="#"><i class="mb-1 mr-2 fa fa-user" aria-hidden="true"></i>Profil</a>
+            <a class="navbar-brand d-flex align-items-center" href="#"><i class="mb-1 mr-2 fa fa-shopping-cart" aria-hidden="true"></i>Panier</a>
+        </section>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <div class="nav-li d-flex align-items-center justify-content-center ">
+        <section class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <article class="nav-li d-flex align-items-center justify-content-center ">
                 <ul class="navbar-nav col-md-3">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Boutique de noël</a>
@@ -79,7 +78,7 @@
                         <a class="nav-link" href="#">Amazon Launchpad</a>
                     </li>
                 </ul>
-            </div>
-        </div>
+            </article>
+        </section>
     </nav>
 </header>

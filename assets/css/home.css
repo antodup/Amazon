@@ -1,39 +1,96 @@
-h1{
-    font-size:3.5em;
+h1 {
+    font-size: 3.5em;
 }
-.vh100{
+
+.vh100 {
     height: 100vh;
 }
 
-.background-img-home{
+.background-img-home {
     background-image: url("../pictures/familly.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: calc(100vh - 63px);
 }
 
-.background-img-add1{
+.background-img-add1 {
     background-image: url("../pictures/ilya-pavlov-87472.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 400px;
 }
 
-.shadow{
-    box-shadow: rgba(0,0,0,0.4) -2px 2px 15px;
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.4) -2px 2px 15px;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #131a22;
-    border:none;
+    border: none;
 }
 
-@media screen and (min-width: 320px) and (max-width:767px){
-    .vh100{
+.ctn-search {
+    width: 70%;
+}
+
+.input-group {
+    height: 55px;
+}
+
+.form-control {
+    font-weight: 300;
+}
+
+.btn-search {
+    background-color: #f9a51b;
+    border: 1px solid #f9a51b;
+}
+
+.btn-search:hover {
+    background-color: #e0901a;
+    border: 1px solid #e0901a;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+}
+
+.carousel-control-prev {
+    left: -13%;
+}
+
+.carousel-control-next {
+    right: -13%;
+}
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .vh100 {
         height: 30vh;
     }
 
-    h1{
-        font-size:1.6em;
+    h1 {
+        font-size: 1.8em;
     }
-  }
+
+    .ctn-search {
+        width: 90%;
+    }
+
+    .input-group {
+        height: 40px;
+    }
+    .ctn-carousel {
+        padding:1.70rem !important;
+    }
+}
