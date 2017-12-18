@@ -1,3 +1,18 @@
 .shadow{
     box-shadow: rgba(0,0,0,0.4) -2px 2px 15px;
 }
+
+ul, ul li {
+    list-style: none;
+}
+ul li a{
+    list-style: none;
+    font-size: 1em;
+    color: #0c5460;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: #f9a51b;
+    text-decoration: none;
+}
