@@ -27,7 +27,7 @@ include ("../header.php")
         <div class="input-group shadow">
             <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
             <span class="input-group-btn">
-                <button onclick="javascript:location.href='/DEV ANNEE2/Amazon/views/recherche.php'" class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
+                <button onclick="javascript:location.href='recherche.php'" class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
             </span>
         </div>
 </section>
@@ -60,7 +60,7 @@ include ("../header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">j'achète</a>
+                    <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
@@ -77,7 +77,7 @@ include ("../header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">j'achète</a>
+                    <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@ include ("../header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">j'achète</a>
+                    <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@ include ("../header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">j'achète</a>
+                    <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@ include ("../header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">j'achète</a>
+                    <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
@@ -145,7 +145,7 @@ include ("../header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">j'achète</a>
+                    <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
@@ -162,7 +162,7 @@ include ("../header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">j'achète</a>
+                    <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div><div class="card m-3" style="width: 20rem;">
@@ -178,7 +178,7 @@ include ("../header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">j'achète</a>
+                    <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
@@ -195,7 +195,7 @@ include ("../header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">j'achète</a>
+                    <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
@@ -212,7 +212,7 @@ include ("../header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">j'achète</a>
+                    <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
@@ -229,7 +229,7 @@ include ("../header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">j'achète</a>
+                    <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
@@ -246,7 +246,7 @@ include ("../header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">j'achète</a>
+                    <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
@@ -267,7 +267,7 @@ include ("../header.php")
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-primary">Voir plus</a>
+                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -277,7 +277,7 @@ include ("../header.php")
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between  align-items-center">
-                                <a href="#" class="btn btn-primary">Voir plus</a>
+                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -287,7 +287,7 @@ include ("../header.php")
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-primary">Voir plus</a>
+                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -303,7 +303,7 @@ include ("../header.php")
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-primary">Voir plus</a>
+                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -313,7 +313,7 @@ include ("../header.php")
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-primary">Voir plus</a>
+                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -323,7 +323,7 @@ include ("../header.php")
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-primary">Voir plus</a>
+                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -339,7 +339,7 @@ include ("../header.php")
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-primary">Voir plus</a>
+                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -349,7 +349,7 @@ include ("../header.php")
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-primary">Voir plus</a>
+                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -359,7 +359,7 @@ include ("../header.php")
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-primary">Voir plus</a>
+                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>

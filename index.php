@@ -30,7 +30,7 @@ require("header.php");
         <div class="input-group shadow">
             <input type="text" class="form-control" placeholder="Votre recherche..." aria-label="Search for...">
             <span class="input-group-btn">
-                <button onclick="javascript:location.href='/DEV ANNEE2/Amazon/views/recherche.php'"
+                <button onclick="javascript:location.href='views/recherche.php'"
                         class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
             </span>
         </div>
@@ -51,7 +51,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a id="button-drone" href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a id="button-drone" href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between  align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -87,7 +87,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -123,7 +123,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -143,7 +143,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -179,7 +179,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between  align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -199,7 +199,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -215,7 +215,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -225,7 +225,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -235,7 +235,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -251,7 +251,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -261,7 +261,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -271,7 +271,7 @@ require("header.php");
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="/DEV ANNEE2/Amazon/views/produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="views/produit.php" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
