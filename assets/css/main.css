@@ -109,8 +109,13 @@ input {
 .a-popover{
     cursor: pointer;
 }
-.btn-popover a:hover {
+.btn-popover:hover {
     background-color: #f9a51b;
+}
+
+.btn-primary {
+    background-color: #131a22;
+    border: none;
 }
 .img-popover{
     display: inline-block;

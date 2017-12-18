@@ -20,7 +20,7 @@
 </head>
 <body>
 <?php
-include ("../header.php")
+include ("header.php")
 ?>
 <section class="d-flex justify-content-center align-items-center vh100 flex-column p-5 background-img-home">
     <div class="col-sm-6 col-md-8">
@@ -379,7 +379,7 @@ include ("../header.php")
 </section>
 
 <?php
-include ("../footer.php")
+include ("footer.php")
 ?>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

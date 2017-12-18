@@ -28,6 +28,6 @@ $("#panier").popover ({
     title : '<h3 class = "title-popover"> Panier </ h3>' ,
     // language=HTML
     content : '<ul><li class="li-popover d-flex justify-content-center align-items-center"><img class="img-popover" src="../assets/pictures/apareil-photo.jpg"><div class="d-flex flex-column"><p>Appareil photo</p> <p>200€</p></div></li><li class="li-popover d-flex justify-content-center align-items-center"><img class="img-popover" src="../assets/pictures/ipad-pro.jpg"><div class="d-flex flex-column"><p>Ipad pro</p> <p>800€</p></div></li></ul>' +
-    '<li class="d-flex justify-content-center btn-popover"><a href="#" class="btn btn-primary">Voir mon panier</a></li>' ,
+    '<li class="d-flex justify-content-center "><a href="#" class="btn btn-primary btn-popover">Voir mon panier</a></li>' ,
     html : true
 });

@@ -20,14 +20,14 @@
 </head>
 <body>
 <?php
-require("../header.php");
+require("header.php");
 ?>
 <section class="d-flex justify-content-center align-items-center flex-column p-5 background-img-home vh100">
     <div class="ctn-search">
         <div class="input-group shadow">
             <input type="text" class="form-control" placeholder="Votre recherche..." aria-label="Search for...">
             <span class="input-group-btn">
-                <button onclick="javascript:location.href='/DEV ANNEE2/Amazon/views/recherche.php'"
+                <button onclick="javascript:location.href='recherche.php'"
                         class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
             
         </div>
@@ -36,7 +36,7 @@ require("../header.php");
 <section class="p-5 container">
     <nav aria-label="breadcrumb" role="navigation">
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
+            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
             <li class="breadcrumb-item"><a href="recherche.php">Liste Produit</a></li>
             <li class="breadcrumb-item active" aria-current="page">Nom du Produit</li>
         </ol>
@@ -104,7 +104,7 @@ require("../header.php");
 </section>
 
 <?php
-require("../footer.php");
+require("footer.php");
 ?>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -118,7 +118,6 @@ require("../footer.php");
         crossorigin="anonymous"></script>
 <script src="../assets/js/cookie.js"></script>
 <script src="../assets/js/main.js"></script>
-<script src="../assets/js/produit.js"></script>
 
 </body>
 </html>
