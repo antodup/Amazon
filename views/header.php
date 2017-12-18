@@ -6,7 +6,7 @@
             <span class="navbar-toggler-icon mr-3"></span>
             <span class="txt-menu">Voir toutes les catégories<span>
         </button>
-        <a href="index.php"><img class="logo rounded mx-auto d-block col-12" src="../assets/pictures/amazon-dark.svg"></a>
+        <a class="col-5" href="index.php"><img class="logo rounded mx-auto d-block col-12" src="../assets/pictures/amazon-dark.svg"></a>
         <section class="d-flex col-3 justify-content-end">
             <a id="profil" class="navbar-brand d-flex align-items-center" href="#" tabindex="0" class="btn btn-lg btn-danger"
                role="button" data-toggle="popover" data-placement="bottom" data-trigger="focus">
@@ -19,8 +19,6 @@
                 <i class="mb-1 mr-2 fa fa-shopping-cart" aria-hidden="true"></i>
                 Panier
             </a>
-
-
         </section>
 
         <section class="collapse navbar-collapse" id="navbarTogglerDemo03">

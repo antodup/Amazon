@@ -257,8 +257,8 @@ include ("header.php")
         <h4>Sélection idées cadeau</h4>
     </article>
     <section id="carouselExampleControls" class="pt-3 carousel slide" data-ride="carousel">
-        <section class="carousel-inner">
-            <section class="carousel-item active p-3">
+        <section id="section-item" class="carousel-inner">
+            <section class="parent-card carousel-item active p-3">
                 <section
                         class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"
                         src="..." alt="First slide">
@@ -294,7 +294,7 @@ include ("header.php")
                     </article>
                 </section>
             </section>
-            <section class="carousel-item p-3">
+            <section class="parent-card carousel-item p-3">
                 <section
                         class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"
                         src="..." alt="Second slide">
@@ -330,7 +330,7 @@ include ("header.php")
                     </article>
                 </section>
             </section>
-            <section class="carousel-item p-3">
+            <section class="parent-card carousel-item p-3">
                 <section
                         class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column-reverse"
                         src="..." alt="Third slide">
