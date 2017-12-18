@@ -49,15 +49,50 @@ input {
     margin-right: 10px;
 }
 
-.navbar-brand:hover {
+.btn-header:hover {
     background-color: #dadada;
     border-radius: 4px;
+}
+.btn-header:focus {
+    background-color: #dadada;
+    border-radius: 4px;
+}
+
+.btn-header{
+    background: none;
+    border: none;
 }
 
 .txt-menu {
     font-size:0.75em;
 }
 
+/*POPOVERS**/
+
+.title-popover{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    padding-top: 10px;
+}
+.li-popover{
+    list-style-type: none;
+}
+.li-popover p{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+.a-popover{
+    cursor: pointer;
+}
+.btn-popover a:hover {
+    background-color: #f9a51b;
+}
+.img-popover{
+    display: inline-block;
+    width: 90px;
+    height: auto;
+}
 @media all and (min-width: 320px) and (max-width: 767px){
     .nav-li{
         flex-direction: column;
