@@ -32,7 +32,7 @@ include ("header.php")
         </div>
 </section>
 <section class="container p-5 bg-white">
-    <div class="d-flex justify-content-between flex-sm-nowrap">
+    <div class="d-flex justify-content-between flex-nowrap">
         <div class="result"><h6>résultats pour....</h6></div>
         <div class="form-group col-sm-3 d-flex row flex-nowrap justify-content-around">
             <label for="exampleFormControlSelect1">trier par</label>
@@ -47,7 +47,7 @@ include ("header.php")
         </div>
     </div>
     <article class="d-flex row flex-wrap">
-        <div class="card m-3" style="width: 20rem;">
+        <div class="card m-3">
             <img class="card-img-top" src="../assets/pictures/ipad-pro.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
@@ -64,7 +64,7 @@ include ("header.php")
                 </div>
             </div>
         </div>
-        <div class="card m-3" style="width: 20rem;">
+        <div class="card m-3">
             <img class="card-img-top" src="../assets/pictures/drone.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
@@ -81,7 +81,7 @@ include ("header.php")
                 </div>
             </div>
         </div>
-        <div class="card m-3" style="width: 20rem;">
+        <div class="card m-3">
             <img class="card-img-top" src="../assets/pictures/asterix.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
@@ -98,7 +98,7 @@ include ("header.php")
                 </div>
             </div>
         </div>
-        <div class="card m-3" style="width: 20rem;">
+        <div class="card m-3">
             <img class="card-img-top" src="../assets/pictures/montre.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
@@ -115,7 +115,7 @@ include ("header.php")
                 </div>
             </div>
         </div>
-        <div class="card m-3" style="width: 20rem;">
+        <div class="card m-3">
             <img class="card-img-top" src="../assets/pictures/go-pro.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
@@ -132,7 +132,7 @@ include ("header.php")
                 </div>
             </div>
         </div>
-        <div class="card m-3" style="width: 20rem;">
+        <div class="card m-3">
             <img class="card-img-top" src="../assets/pictures/lego.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
@@ -149,7 +149,7 @@ include ("header.php")
                 </div>
             </div>
         </div>
-        <div class="card m-3" style="width: 20rem;">
+        <div class="card m-3">
             <img class="card-img-top" src="../assets/pictures/lego.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
@@ -165,7 +165,7 @@ include ("header.php")
                     <a href="produit.php" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
-        </div><div class="card m-3" style="width: 20rem;">
+        </div><div class="card m-3">
             <img class="card-img-top" src="../assets/pictures/ipad-pro.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
@@ -182,7 +182,7 @@ include ("header.php")
                 </div>
             </div>
         </div>
-        <div class="card m-3" style="width: 20rem;">
+        <div class="card m-3">
             <img class="card-img-top" src="../assets/pictures/asterix.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
@@ -199,7 +199,7 @@ include ("header.php")
                 </div>
             </div>
         </div>
-        <div class="card m-3" style="width: 20rem;">
+        <div class="card m-3">
             <img class="card-img-top" src="../assets/pictures/montre.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
@@ -216,7 +216,7 @@ include ("header.php")
                 </div>
             </div>
         </div>
-        <div class="card m-3" style="width: 20rem;">
+        <div class="card m-3">
             <img class="card-img-top" src="../assets/pictures/go-pro.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
@@ -233,7 +233,7 @@ include ("header.php")
                 </div>
             </div>
         </div>
-        <div class="card m-3" style="width: 20rem;">
+        <div class="card m-3">
             <img class="card-img-top" src="../assets/pictures/drone.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
@@ -258,7 +258,7 @@ include ("header.php")
     </article>
     <section id="carouselExampleControls" class="pt-3 carousel slide" data-ride="carousel">
         <section class="carousel-inner">
-            <section class="carousel-item active">
+            <section class="carousel-item active p-3">
                 <section
                         class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"
                         src="..." alt="First slide">
@@ -294,7 +294,7 @@ include ("header.php")
                     </article>
                 </section>
             </section>
-            <section class="carousel-item">
+            <section class="carousel-item p-3">
                 <section
                         class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"
                         src="..." alt="Second slide">
@@ -330,7 +330,7 @@ include ("header.php")
                     </article>
                 </section>
             </section>
-            <section class="carousel-item">
+            <section class="carousel-item p-3">
                 <section
                         class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column-reverse"
                         src="..." alt="Third slide">
