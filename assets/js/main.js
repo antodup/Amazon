@@ -4,6 +4,14 @@ if (document.documentElement.clientWidth >= 320 && document.documentElement.clie
     document.querySelector(".navbar-brand:last-child").innerHTML = "<i class=\"mb-1 mr-2 fa fa-shopping-cart\" aria-hidden=\"true\"></i>"
 }
 
+//RECHERCHE => COOKIE
+document.querySelector(".btn-search").addEventListener("click", function () {
+    var inputVal = document.querySelector(".form-control").value
+    console.log(inputVal)
+    setCookie("Recherche", inputVal, 30);
+})
+
+
 // POPOVERS
 
 $(function () {

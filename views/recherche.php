@@ -24,13 +24,13 @@
         <div class="input-group shadow">
             <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
             <span class="input-group-btn">
-                <button class="btn btn-secondary" type="button"><i class="fa fa-search"></i></button>
+                <button onclick="javascript:location.href='/DEV ANNEE2/Amazon/views/recherche.php'" class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
             </span>
         </div>
 </section>
 <section class="container p-5 bg-white">
     <div class="d-flex justify-content-between flex-sm-nowrap">
-        <div class=""><h6>résultats pour....</h6></div>
+        <div class="result"><h6>résultats pour....</h6></div>
         <div class="form-group col-sm-3 d-flex row flex-nowrap justify-content-around">
             <label for="exampleFormControlSelect1">trier par</label>
             <select class="form-control-sm" id="exampleFormControlSelect1">
@@ -157,6 +157,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
+<script src="../assets/js/cookie.js"></script>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/recherche.js"></script>
 
 </body>
 </html>

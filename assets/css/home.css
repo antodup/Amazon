@@ -31,28 +31,6 @@ h1 {
     border: none;
 }
 
-.ctn-search {
-    width: 70%;
-}
-
-.input-group {
-    height: 55px;
-}
-
-.form-control {
-    font-weight: 300;
-}
-
-.btn-search {
-    background-color: #f9a51b;
-    border: 1px solid #f9a51b;
-}
-
-.btn-search:hover {
-    background-color: #e0901a;
-    border: 1px solid #e0901a;
-}
-
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 
@@ -86,6 +64,11 @@ h1 {
     background-color: #f9a51b;
 }
 
+.card {
+    border: none;
+    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.1);
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .vh100 {
         height: 30vh;
@@ -102,7 +85,36 @@ h1 {
     .input-group {
         height: 40px;
     }
+
     .ctn-carousel {
-        padding:1.70rem !important;
+        padding: 1.70rem !important;
+    }
+
+    .carousel-item {
+        width: auto;
+    }
+
+    .carousel-control-prev {
+        left: -8.5%;
+    }
+
+    .carousel-control-next {
+        right: -8.5%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .card{
+        margin: 1em;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: portrait) {
+    .card-body div{
+        flex-direction: column
+    }
+
+    .card-body div h6 {
+        margin-top: 10px !important;
     }
 }

@@ -1,0 +1,16 @@
+.img-produit {
+    width: 100%;
+}
+
+.description {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.livraison {
+    font-size: 0.7em;
+}
+
+.breadcrumb {
+    background: none;
+}

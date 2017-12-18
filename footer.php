@@ -1,5 +1,5 @@
 <footer class="footer-page p-4">
-    <a href="#"><img class="logo_footer rounded mx-auto d-block mb-5" src="assets/pictures/amazon-dark.svg"
+    <a href="../index.php"><img class="logo_footer rounded mx-auto d-block mb-5" src="assets/pictures/amazon-dark.svg"
                      alt="logo"></a>
     <section class="container">
         <section class="row">

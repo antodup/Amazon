@@ -49,7 +49,7 @@ input {
     margin-right: 10px;
 }
 
-.btn-header:hover {
+.navbar-brand:hover {
     background-color: #dadada;
     border-radius: 4px;
 }
@@ -65,6 +65,30 @@ input {
 
 .txt-menu {
     font-size:0.75em;
+}
+
+.ctn-search {
+    width: 70%;
+}
+
+.input-group {
+    height: 55px;
+}
+
+.form-control {
+    font-weight: 300;
+}
+
+
+.btn-search {
+    background-color: #f9a51b;
+    border: 1px solid #f9a51b;
+    cursor: pointer;
+}
+
+.btn-search:hover {
+    background-color: #e0901a;
+    border: 1px solid #e0901a;
 }
 
 /*POPOVERS**/
@@ -162,6 +186,13 @@ input {
 
 .list-group-item:focus, .list-group-item:hover {
     font-weight: 700;
+}
+
+.background-img-home{
+    background-image: url("../pictures/familly.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @media all and (min-width: 320px) and (max-width: 767px){
