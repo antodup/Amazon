@@ -30,7 +30,7 @@ require("header.php");
         <div class="input-group shadow">
             <input type="text" class="form-control" placeholder="Votre recherche..." aria-label="Search for...">
             <span class="input-group-btn">
-                <button onclick="javascript:location.href='views/recherche.php'"
+                <button onclick="javascript:location.href='recherche.php'"
                         class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
             </span>
         </div>
@@ -310,9 +310,9 @@ require("footer.php");
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
-<script src="assets/js/cookie.js"></script>
-<script src="assets/js/main.js"></script>
-<script src="assets/js/home.js"></script>
+<script src="../assets/js/cookie.js"></script>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/home.js"></script>
 
 </body>
 </html>
