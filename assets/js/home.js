@@ -1,6 +1,3 @@
-//HREF FOOTER
-document.querySelector(".footer-page > a:first-child").setAttribute("href", "index.php")
-
 // RESPONSIVE
 var parentCards = document.querySelectorAll(".parent-card"),
     cardsCarsouel1 = document.querySelectorAll("#section-item .card"),
