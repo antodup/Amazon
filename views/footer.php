@@ -1,6 +1,6 @@
 <footer class="footer-page p-4">
-    <a href="index.php"><img class="logo_footer rounded mx-auto d-block mb-5" src="../assets/pictures/amazon-dark.svg"
-                     alt="logo"></a>
+    <a href="index.php"><img class="logo_footer rounded mx-auto d-block mb-5" src="assets/pictures/amazon-dark.svg"
+                                alt="logo"></a>
     <section class="container">
         <section class="row">
             <article class="list-group col-md-3">

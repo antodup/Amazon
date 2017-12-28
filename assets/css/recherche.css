@@ -1,3 +1,11 @@
+.background-img-recherche {
+    background-image: url("../pictures/familly.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
 .shadow{
     box-shadow: rgba(0,0,0,0.4) -2px 2px 15px;
 }

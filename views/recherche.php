@@ -12,22 +12,19 @@
     <script src="https://use.fontawesome.com/75a87d192f.js"></script>
 
     <!--BOOTSTRAP-->
-    <link rel="stylesheet" href="../assets/css/bootstrap.css">
-    <link rel="stylesheet" href="../assets/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../assets/css/recherche.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/recherche.css">
     <title>Amazon</title>
 </head>
 <body>
-<?php
-include ("header.php")
-?>
-<section class="d-flex justify-content-center align-items-center vh100 flex-column p-5 background-img-home">
+<section class="d-flex justify-content-center align-items-center vh100 flex-column p-5 background-img-recherche">
     <div class="col-sm-6 col-md-8">
         <div class="input-group shadow">
             <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
             <span class="input-group-btn">
-                <button onclick="javascript:location.href='recherche.php'" class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
+                <button onclick="javascript:location.href='index.php?page=recherche'" class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
             </span>
         </div>
 </section>
@@ -48,7 +45,7 @@ include ("header.php")
     </div>
     <article class="d-flex row flex-wrap">
         <div class="card m-3">
-            <img class="card-img-top" src="../assets/pictures/ipad-pro.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
                 <h6>EUR 1337.99</h6>
@@ -60,12 +57,12 @@ include ("header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="produit.php" class="btn btn-primary">j'achète</a>
+                    <a href="index.php?page=produit" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
         <div class="card m-3">
-            <img class="card-img-top" src="../assets/pictures/drone.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
                 <h6>EUR 1337.99</h6>
@@ -77,12 +74,12 @@ include ("header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="produit.php" class="btn btn-primary">j'achète</a>
+                    <a href="index.php?page=produit" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
         <div class="card m-3">
-            <img class="card-img-top" src="../assets/pictures/asterix.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/pictures/asterix.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
                 <h6>EUR 1337.99</h6>
@@ -94,12 +91,12 @@ include ("header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="produit.php" class="btn btn-primary">j'achète</a>
+                    <a href="index.php?page=produit" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
         <div class="card m-3">
-            <img class="card-img-top" src="../assets/pictures/montre.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/pictures/montre.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
                 <h6>EUR 1337.99</h6>
@@ -111,12 +108,12 @@ include ("header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="produit.php" class="btn btn-primary">j'achète</a>
+                    <a href="index.php?page=produit" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
         <div class="card m-3">
-            <img class="card-img-top" src="../assets/pictures/go-pro.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
                 <h6>EUR 1337.99</h6>
@@ -128,12 +125,12 @@ include ("header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="produit.php" class="btn btn-primary">j'achète</a>
+                    <a href="index.php?page=produit" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
         <div class="card m-3">
-            <img class="card-img-top" src="../assets/pictures/lego.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/pictures/lego.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
                 <h6>EUR 1337.99</h6>
@@ -145,12 +142,12 @@ include ("header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="produit.php" class="btn btn-primary">j'achète</a>
+                    <a href="index.php?page=produit" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
         <div class="card m-3">
-            <img class="card-img-top" src="../assets/pictures/lego.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/pictures/lego.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
                 <h6>EUR 1337.99</h6>
@@ -162,11 +159,11 @@ include ("header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="produit.php" class="btn btn-primary">j'achète</a>
+                    <a href="index.php?page=produit" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div><div class="card m-3">
-            <img class="card-img-top" src="../assets/pictures/ipad-pro.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
                 <h6>EUR 1337.99</h6>
@@ -178,12 +175,12 @@ include ("header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="produit.php" class="btn btn-primary">j'achète</a>
+                    <a href="index.php?page=produit" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
         <div class="card m-3">
-            <img class="card-img-top" src="../assets/pictures/asterix.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/pictures/asterix.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
                 <h6>EUR 1337.99</h6>
@@ -195,12 +192,12 @@ include ("header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="produit.php" class="btn btn-primary">j'achète</a>
+                    <a href="index.php?page=produit" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
         <div class="card m-3">
-            <img class="card-img-top" src="../assets/pictures/montre.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/pictures/montre.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
                 <h6>EUR 1337.99</h6>
@@ -212,12 +209,12 @@ include ("header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="produit.php" class="btn btn-primary">j'achète</a>
+                    <a href="index.php?page=produit" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
         <div class="card m-3">
-            <img class="card-img-top" src="../assets/pictures/go-pro.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
                 <h6>EUR 1337.99</h6>
@@ -229,12 +226,12 @@ include ("header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="produit.php" class="btn btn-primary">j'achète</a>
+                    <a href="index.php?page=produit" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
         <div class="card m-3">
-            <img class="card-img-top" src="../assets/pictures/drone.jpg" alt="Card image cap">
+            <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Drone kappa 1337</h5>
                 <h6>EUR 1337.99</h6>
@@ -246,7 +243,7 @@ include ("header.php")
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                     </div>
-                    <a href="produit.php" class="btn btn-primary">j'achète</a>
+                    <a href="index.php?page=produit" class="btn btn-primary">j'achète</a>
                 </div>
             </div>
         </div>
@@ -263,31 +260,31 @@ include ("header.php")
                         class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"
                         src="..." alt="First slide">
                     <article class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="../assets/pictures/drone.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
                     <article class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="../assets/pictures/ipad-pro.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between  align-items-center">
-                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
                     <article class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="../assets/pictures/go-pro.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -299,31 +296,31 @@ include ("header.php")
                         class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"
                         src="..." alt="Second slide">
                     <article class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="../assets/pictures/drone.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
                     <article class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="../assets/pictures/ipad-pro.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
                     <article class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="../assets/pictures/go-pro.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -335,31 +332,31 @@ include ("header.php")
                         class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column-reverse"
                         src="..." alt="Third slide">
                     <article class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="../assets/pictures/drone.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
                     <article class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="../assets/pictures/ipad-pro.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
                     <article class="card" style="width: 20rem;">
-                        <img class="card-img-top" src="../assets/pictures/go-pro.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="produit.php" class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -378,9 +375,6 @@ include ("header.php")
     </section>
 </section>
 
-<?php
-include ("footer.php")
-?>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -391,9 +385,9 @@ include ("footer.php")
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
-<script src="../assets/js/cookie.js"></script>
-<script src="../assets/js/main.js"></script>
-<script src="../assets/js/recherche.js"></script>
+<script src="assets/js/cookie.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/recherche.js"></script>
 
 </body>
 </html>

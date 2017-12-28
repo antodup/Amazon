@@ -12,24 +12,21 @@
     <script src="https://use.fontawesome.com/75a87d192f.js"></script>
 
     <!--BOOTSTRAP-->
-    <link rel="stylesheet" href="../assets/css/bootstrap.css">
-    <link rel="stylesheet" href="../assets/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../assets/css/produit.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/produit.css">
     <title>Amazon</title>
 </head>
 <body>
-<?php
-require("header.php");
-?>
-<section class="d-flex justify-content-center align-items-center flex-column p-5 background-img-home vh100">
+<section class="d-flex justify-content-center align-items-center flex-column p-5 background-img-produit vh100">
     <div class="ctn-search">
         <div class="input-group shadow">
             <input type="text" class="form-control" placeholder="Votre recherche..." aria-label="Search for...">
             <span class="input-group-btn">
-                <button onclick="javascript:location.href='recherche.php'"
+                <button onclick="javascript:location.href='index.php?page=recherche'"
                         class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
-            
+
         </div>
     </div>
 </section>
@@ -43,7 +40,7 @@ require("header.php");
     </nav>
     <section class="row">
         <article class="col-md-5">
-            <img class="img-produit" src="../assets/pictures/apareil-photo.jpg" alt="Description image">
+            <img class="img-produit" src="assets/pictures/apareil-photo.jpg" alt="Description image">
         </article>
         <article class="col-md-7">
             <h2 class="mb-3">Titre Produit</h2>
@@ -103,10 +100,6 @@ require("header.php");
     </section>
 </section>
 
-<?php
-require("footer.php");
-?>
-
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -116,8 +109,8 @@ require("footer.php");
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
-<script src="../assets/js/cookie.js"></script>
-<script src="../assets/js/main.js"></script>
+<script src="assets/js/cookie.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
