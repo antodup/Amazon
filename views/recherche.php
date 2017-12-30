@@ -24,7 +24,7 @@
         <div class="input-group shadow">
             <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
             <span class="input-group-btn">
-                <button onclick="javascript:location.href='index.php?page=recherche'" class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
+                <button class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
             </span>
         </div>
 </section>
@@ -254,7 +254,7 @@
         <h4>Sélection idées cadeau</h4>
     </article>
     <section id="carouselExampleControls" class="pt-3 carousel slide" data-ride="carousel">
-        <section id="section-item" class="carousel-inner">
+        <section id="section-item-search" class="carousel-inner">
             <section class="parent-card carousel-item active p-3">
                 <section
                         class="d-block w-100 d-flex align-items-baseline justify-content-sm-between flex-sm-row flex-sm-nowrap flex-column"

@@ -57,20 +57,12 @@ h1 {
         font-size: 1.8em;
     }
 
-    .ctn-search {
-        width: 90%;
-    }
-
     .input-group {
         height: 40px;
     }
 
     .ctn-carousel {
         padding: 1.70rem !important;
-    }
-
-    .carousel-item {
-        width: auto;
     }
 
     .carousel-control-prev {

@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif ;
+    font-family: "Montserrat", sans-serif;
 }
 
 p {
@@ -18,13 +18,13 @@ p {
 }
 
 input {
-    font-family: "Montserrat", sans-serif ;
+    font-family: "Montserrat", sans-serif;
 }
 
 /*HEADER*/
 
 .logo {
-    height:30px;
+    height: 30px;
 }
 
 .navbar-brand {
@@ -33,6 +33,11 @@ input {
 
 .fa {
     font-size: 1.6em;
+}
+
+/*CROSS*/
+.burger-cross {
+    background-image: url(../pictures/cross.svg) !important;
 }
 
 .navbar-light .navbar-toggler {
@@ -53,18 +58,19 @@ input {
     background-color: #dadada;
     border-radius: 4px;
 }
+
 .btn-header:focus {
     background-color: #dadada;
     border-radius: 4px;
 }
 
-.btn-header{
+.btn-header {
     background: none;
     border: none;
 }
 
 .txt-menu {
-    font-size:0.75em;
+    font-size: 0.75em;
 }
 
 .ctn-search {
@@ -79,7 +85,6 @@ input {
     font-weight: 300;
 }
 
-
 .btn-search {
     background-color: #f9a51b;
     border: 1px solid #f9a51b;
@@ -93,22 +98,26 @@ input {
 
 /*POPOVERS**/
 
-.title-popover{
+.title-popover {
     font-family: "Montserrat", sans-serif;
     font-size: 1em;
     padding-top: 10px;
 }
-.li-popover{
+
+.li-popover {
     list-style-type: none;
 }
-.li-popover p{
+
+.li-popover p {
     margin: 0;
     padding: 0;
     width: 100px;
 }
-.a-popover{
+
+.a-popover {
     cursor: pointer;
 }
+
 .btn-popover:hover {
     background-color: #f9a51b;
 }
@@ -117,13 +126,19 @@ input {
     background-color: #131a22;
     border: none;
 }
-.img-popover{
+
+.img-popover {
     display: inline-block;
     width: 90px;
     height: auto;
 }
-@media all and (min-width: 320px) and (max-width: 767px){
-    .nav-li{
+
+.color{
+    color: #f9a51b;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+    .nav-li {
         flex-direction: column;
     }
 
@@ -144,6 +159,11 @@ input {
     .logo {
         padding: 0;
     }
+
+    .ctn-search {
+        width: 90%;
+    }
+
 }
 
 /*FOOTER*/
@@ -155,8 +175,8 @@ input {
     width: 13%;
 }
 
-.title-list-footer{
-    font-family: "Montserrat", sans-serif ;
+.title-list-footer {
+    font-family: "Montserrat", sans-serif;
     font-size: 1.2em;
     color: #232f3e !important;
 }
@@ -164,7 +184,7 @@ input {
 .list-group-item {
     background-color: transparent;
     color: #9c9c9c;
-    border:none;
+    border: none;
     padding: 0.5rem 1rem;
 }
 
@@ -193,7 +213,7 @@ input {
     font-weight: 700;
 }
 
-.background-img-home{
+.background-img-home {
     background-image: url("../pictures/familly.jpg");
     background-size: cover;
     background-position: center;
@@ -217,7 +237,7 @@ input {
     right: -10%;
 }
 
-@media all and (min-width: 320px) and (max-width: 767px){
+@media all and (min-width: 320px) and (max-width: 767px) {
     .logo_footer {
         width: 35%;
     }
@@ -237,5 +257,9 @@ input {
 
     .carousel-control-next {
         right: -15%;
+    }
+
+    .carousel-item {
+        width: auto;
     }
 }

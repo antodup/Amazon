@@ -22,3 +22,73 @@
 .breadcrumb {
     background: none;
 }
+
+.ctn-star {
+    font-size: 0.8em;
+}
+
+.txt-com {
+    font-size: 1.3em;
+    font-style: italic;
+    font-family: 'Noto Serif', serif;;
+}
+
+.fa-quote-left, .fa-quote-right {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.bolt1 {
+    border: 1px solid #f9a51b;
+    border-radius: 27px;
+    padding: 14px 20px 14px 20px;
+    font-size: 2.1em;
+    z-index: 1;
+    color: #f9a51b;
+}
+
+.bolt2 {
+    font-size: 20em;
+    color: #f9a51b;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.ctn-com{
+    background-color: #f3f3f3;
+}
+
+.button-avis{
+    font-size: 0.8em;
+    color: #000;
+}
+
+.button-avis:hover {
+    color: #f9a51b;
+    text-decoration: none;
+}
+
+.title-com {
+    font-size: 1.5em;
+}
+
+.com {
+    font-size: 1em;
+}
+
+.ctn-comm {
+    background-color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .img-produit {
+        margin-bottom: 25px;
+    }
+    .avis-prod{
+        flex-wrap: wrap;
+    }
+
+    .background-img-produit {
+        padding: 0 !important;
+    }
+
+}

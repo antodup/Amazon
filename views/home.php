@@ -6,8 +6,7 @@
         <div class="input-group shadow">
             <input type="text" class="form-control" placeholder="Votre recherche..." aria-label="Search for...">
             <span class="input-group-btn">
-                <button onclick="javascript:location.href='index.php?page=recherche'"
-                        class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
+                <button class="btn btn-secondary btn-search" type="button"><i class="fa fa-search"></i></button>
             </span>
         </div>
     </div>
@@ -20,34 +19,35 @@
         <section id="section-item" class="carousel-inner">
             <section class="parent-card carousel-item active p-3">
                 <section
-                    class="d-block w-100 d-flex align-items-center justify-content-between"
-                    src="..." alt="First slide">
-                    <article value="drone" class="card" >
+                        class="d-block w-100 d-flex align-items-center justify-content-between"
+                        src="..." alt="First slide">
+                    <article value="drone" class="card">
                         <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a id="button-drone" href="produit.php?page=produit" class="btn btn-primary">Voir plus</a>
+                                <a id="button-drone" href="index.php?page=produit" class="btn btn-primary">Voir
+                                    plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
-                    <article value="ipad" class="card" >
+                    <article value="ipad" class="card">
                         <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between  align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
-                    <article value="go-pro" class="card" >
+                    <article value="go-pro" class="card">
                         <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -56,34 +56,34 @@
             </section>
             <section class="parent-card carousel-item p-3">
                 <section
-                    class="d-block w-100 d-flex align-items-center justify-content-between"
-                    src="..." alt="Second slide">
-                    <article class="card" >
+                        class="d-block w-100 d-flex align-items-center justify-content-between"
+                        src="..." alt="Second slide">
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
-                    <article class="card" >
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
-                    <article class="card" >
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -92,34 +92,34 @@
             </section>
             <section class="parent-card carousel-item p-3">
                 <section
-                    class="d-block w-100 d-flex align-items-center justify-content-between"
-                    src="..." alt="Third slide">
-                    <article class="card" >
+                        class="d-block w-100 d-flex align-items-center justify-content-between"
+                        src="..." alt="Third slide">
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
-                    <article class="card" >
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
-                    <article class="card" >
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -148,34 +148,34 @@
         <section id="section-item2" class="carousel-inner">
             <section class="parent-card carousel-item active p-3">
                 <section
-                    class="d-block w-100 d-flex align-items-center justify-content-between"
-                    src="..." alt="First slide">
-                    <article class="card" >
+                        class="d-block w-100 d-flex align-items-center justify-content-between"
+                        src="..." alt="First slide">
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
-                    <article class="card" >
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between  align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
-                    <article class="card" >
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -184,34 +184,34 @@
             </section>
             <section class="parent-card carousel-item p-3">
                 <section
-                    class="d-block w-100 d-flex align-items-center justify-content-between"
-                    src="..." alt="Second slide">
-                    <article class="card" >
+                        class="d-block w-100 d-flex align-items-center justify-content-between"
+                        src="..." alt="Second slide">
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
-                    <article class="card" >
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
-                    <article class="card" >
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
@@ -220,34 +220,34 @@
             </section>
             <section class="parent-card carousel-item p-3">
                 <section
-                    class="d-block w-100 d-flex align-items-center justify-content-between"
-                    src="..." alt="Third slide">
-                    <article class="card" >
+                        class="d-block w-100 d-flex align-items-center justify-content-between"
+                        src="..." alt="Third slide">
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
-                    <article class="card" >
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>
                     </article>
-                    <article class="card" >
+                    <article class="card">
                         <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="index.php?page=produit"  class="btn btn-primary">Voir plus</a>
+                                <a href="index.php?page=produit" class="btn btn-primary">Voir plus</a>
                                 <h6 class="m-0">EUR 1337.99</h6>
                             </div>
                         </div>

@@ -12,7 +12,7 @@ if (document.documentElement.clientWidth >= 320 && document.documentElement.clie
     //CAROUSEL RESPONSIVE
     //CAROUSEL 1
     for (var i = 0; i < cardsCarsouel1.length; i++) {
-        document.querySelector("#section-item").appendChild(cardsCarsouel1[i])
+        document.querySelector("#section-item-search").appendChild(cardsCarsouel1[i])
         cardsCarsouel1[i].classList.add("carousel-item")
         cardsCarsouel1[0].classList.add("active")
     }
