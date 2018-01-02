@@ -22,6 +22,7 @@
                         class="d-block w-100 d-flex align-items-center justify-content-between"
                         src="..." alt="First slide">
                     <article value="drone" class="card">
+                        <span class="badge badge-warning position-absolute p-2 m-2 text-white">Nouveau</span>
                         <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
@@ -33,6 +34,7 @@
                         </div>
                     </article>
                     <article value="ipad" class="card">
+                        <span class="badge badge-warning position-absolute p-2 m-2 text-white">Nouveau</span>
                         <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
@@ -43,6 +45,7 @@
                         </div>
                     </article>
                     <article value="go-pro" class="card">
+                        <span class="badge badge-warning position-absolute p-2 m-2 text-white">Nouveau</span>
                         <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
@@ -59,6 +62,7 @@
                         class="d-block w-100 d-flex align-items-center justify-content-between"
                         src="..." alt="Second slide">
                     <article class="card">
+                        <span class="badge badge-warning position-absolute p-2 m-2 text-white">Nouveau</span>
                         <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
@@ -69,6 +73,7 @@
                         </div>
                     </article>
                     <article class="card">
+                        <span class="badge badge-warning position-absolute p-2 m-2 text-white">Nouveau</span>
                         <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
@@ -79,6 +84,7 @@
                         </div>
                     </article>
                     <article class="card">
+                        <span class="badge badge-warning position-absolute p-2 m-2 text-white">Nouveau</span>
                         <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
@@ -95,6 +101,7 @@
                         class="d-block w-100 d-flex align-items-center justify-content-between"
                         src="..." alt="Third slide">
                     <article class="card">
+                        <span class="badge badge-warning position-absolute p-2 m-2 text-white">Nouveau</span>
                         <img class="card-img-top" src="assets/pictures/drone.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
@@ -105,6 +112,7 @@
                         </div>
                     </article>
                     <article class="card">
+                        <span class="badge badge-warning position-absolute p-2 m-2 text-white">Nouveau</span>
                         <img class="card-img-top" src="assets/pictures/ipad-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
@@ -115,6 +123,7 @@
                         </div>
                     </article>
                     <article class="card">
+                        <span class="badge badge-warning position-absolute p-2 m-2 text-white">Nouveau</span>
                         <img class="card-img-top" src="assets/pictures/go-pro.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Drone kappa 1337</h5>
