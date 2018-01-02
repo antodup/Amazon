@@ -127,6 +127,10 @@ input {
     border: none;
 }
 
+.btn-primary:hover{
+    background-color: #f9a51b;
+}
+
 .img-popover {
     display: inline-block;
     width: 90px;
