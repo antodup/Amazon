@@ -1,25 +1,4 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!--TYPOGRAPHIES-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
-          rel="stylesheet">
-
-    <script src="https://use.fontawesome.com/75a87d192f.js"></script>
-
-    <!--BOOTSTRAP-->
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/produit.css">
-    <title>Amazon</title>
-</head>
-<body>
-<section class="d-flex justify-content-center align-items-center flex-column p-5 background-img-produit vh100">
+<section class="d-flex justify-content-center align-items-center flex-column p-5 background-img-produit">
     <div class="ctn-search">
         <div class="input-group shadow">
             <input type="text" class="form-control" placeholder="Votre recherche..." aria-label="Search for...">
@@ -189,7 +168,7 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                <span class="title-com"">Très satisfaisant, sauf...<br></span>
+                                <span class="title-com">Très satisfaisant, sauf...<br></span>
                                 <i>Par Gerry le 11 septembre 2017</i>
                             </header>
                             <p class="com">Distribué par un sous-traitant Amazon en Angleterre, format réflex réduit
@@ -213,7 +192,7 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                <span class="title-com"">Très satisfaisant, sauf...<br></span>
+                                <span class="title-com">Très satisfaisant, sauf...<br></span>
                                 <i>Par Gerry le 11 septembre 2017</i>
                             </header>
                             <p class="com">Distribué par un sous-traitant Amazon en Angleterre, format réflex réduit
@@ -237,7 +216,7 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div>
-                                <span class="title-com"">Très satisfaisant, sauf...<br></span>
+                                <span class="title-com">Très satisfaisant, sauf...<br></span>
                                 <i>Par Gerry le 11 septembre 2017</i>
                             </header>
                             <p class="com">Distribué par un sous-traitant Amazon en Angleterre, format réflex réduit
@@ -349,19 +328,3 @@
     </section>
 
 </section>
-</body>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
-<script src="assets/js/cookie.js"></script>
-<script src="assets/js/main.js"></script>
-<script src="assets/js/produit.js"></script>
-</body>
-</html>
