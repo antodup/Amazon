@@ -6,7 +6,7 @@ eraseCookie("Recherche")
 
 // RESPONSIVE
 var parentCards = document.querySelectorAll(".parent-card"),
-    cardsCarsouel1 = document.querySelectorAll("#section-item .card");
+    cardsCarsouel1 = document.querySelectorAll("#section-item-search .card");
 
 if (document.documentElement.clientWidth >= 320 && document.documentElement.clientWidth <= 767) {
     //CAROUSEL RESPONSIVE

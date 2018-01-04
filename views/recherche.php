@@ -1,4 +1,4 @@
-<section class="d-flex justify-content-center align-items-center vh100 flex-column p-5 background-img-recherche">
+<section class="d-flex justify-content-center align-items-center flex-column p-5 background-img-recherche">
     <div class="col-sm-6 col-md-8">
         <div class="input-group shadow">
             <input type="text" class="form-control" placeholder="Votre recherche..." aria-label="Search for..." >
